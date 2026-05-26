@@ -13,12 +13,12 @@ def sumar_todo_de_ida(lista, pi, pf, suma_acumulada):
 
 """Entradas principales de datos"""
 
-tamano = int(input("¿Cuantos numeros tendra la lista?: "))
+tamaño = int(input("¿Cuántos números tendra la lista?: "))
 
 mi_lista = []
-for i in range(tamano):
-    numero = int(input(f"Ingrese el numero para la posicion {i + 1}: "))
-    mi_lista.append(numero)
+for i in range(tamaño):
+    número = int(input(f"Ingrese el número para la posición {i + 1}: "))
+    mi_lista.append(número)
     
 print("\nTu lista es:", mi_lista)
 
